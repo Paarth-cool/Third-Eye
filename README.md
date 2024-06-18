@@ -14,4 +14,7 @@ Prototype 1: We started our project by using a bought walking stick for the blin
 
 Our Though process: We started brainstorming and also reached out to the National Association For The Blind and gained their insight, although they were not that helpfull in telling us what issues the blind community face they did however open a path which we hadn't though of. They helped us realise that we could create another detection system for walking that gets rid of the stick altogether enabling the user to walk normally without a stick. 
 
-Prototype 2: We endded up taking forward an incomplete idea by another set of creaters named ,they made a project called BAT-NAV which was a small module attached to the the back of their foot. Their project can be viewed in detail below in the given links. We decided fix all the flaws from their project while adding our own innovvation into it. We fixed the foot modules by shifting it up to the ankle/shin and also adding a head module which fits arround the ears of the user to also detect any obstaces at head level.
+Prototype 2: We endded up taking forward an incomplete idea by another set of creaters named Aryaman Tandon and Suryansha Seth ,they made a project called BAT-NAV which was a small module attached to the the back of their foot. Their project can be viewed in detail below in the given links. We decided fix all the flaws from their project while adding our own innovvation into it. We fixed the foot modules by shifting it up to the ankle/shin and also adding a head module which fits arround the ears of the user to also detect any obstaces at head level.
+
+https://makersasylum.com/project/project-bat-nav/
+https://github.com/AryamanTandon/Project-Bat-NAV
