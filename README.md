@@ -44,7 +44,14 @@ Aclylic Box (Foot module)
 
 How the product works: 
 The ultrasonic sensor measures the distance between itself and the object and transmitts it to the ESP32
-The ESP32 checks the value to a preset value if it is lesser then it activates the hhaptic sennsor and creates vibrations if no it will continue to compare values
+The ESP32 checks the value to a preset value if it is lesser then it activates the hhaptic sennsor and creates vibrations if not it will continue to compare values
+The vibration motor creates vibrations and alerts the user of any obbstaces in front of them
+
+
+
+Assembly of our product 
+
+
 
 
 
