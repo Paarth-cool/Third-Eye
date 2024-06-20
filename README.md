@@ -50,6 +50,20 @@ The vibration motor creates vibrations and alerts the user of any obbstaces in f
 
 
 Assembly of our product 
+We started out product by trying to attach out sensors onto a pair of glasses, however we soon realised that we could not attach the sensors and other electronic equipment onto the glasses because the weight of the components woiuld be too much for the small glasses to hold leading to the user being uncomfortable and also it would also cause a risk of the sensors falling down from the glasses. 
+
+We switched to thinkinng of attaching all our sensors to a headset that would also allow us to make it comfortable for the user while also makinng it easy to use and wear. We went forward to making platform for the components with a small slit *cad1* for the ear to fit through and a back strap to contain all the wires between the sensors and the boards on the platform. We nade tgus first prototype out of cardboard and foamboard. *photo 1&2*
+
+We then went onto another prototype where we moved the placement of the componenets and made the platform out of acrylic instead of foam to increase sturdiness and durability. *photo3* For the power supply we soldered 4 AA batteries to each other *photo4* We attached all the components to the platform *photo5,6,7,8*
+
+We then laser cut the leg module box on acrylic from the cad file provided by BAT-NAV *cad2* and we joined it together to see the fitting. We then assembled the led module internal parts by connecting a 9V battery to a arduino nano on a breadboard. We also connected a vibration motor, switch and sensor to the esp *photo9,10*
+
+We then connected all the parts and the final result is *photo11*. The testing of the product was done by my teammate Dhruv *photo13,14*
+We also tried to attach the leg module using tape but however it was very unstable *photo15,16*
+
+Later we found an issue in the leg mdoule so we altered it to have a velcro strap for the fastening and also added a gap for the switch to fit through *cad3*
+
+
 
 
 
