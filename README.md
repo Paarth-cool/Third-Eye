@@ -17,17 +17,30 @@ Inform user of obstaces using different combinations of vibration
 Materials:
 
 Cardboard strip to connected the 2 ear pieces to each other
+
 2 Acrylic pieces with a eliptical hole in the middle of dimensions 25x45 (Head Module)
+
 Jumper Wires
+
 ESP32 
+
 Breadboard
+
 Ultrasonic Sensors
+
 Simple on-off switch
+
 Haptic vibration motor
+
 9V Battery
-Bluetooth module HC-O5
+
+Arduino Nano
+
 AA Batery
+
 Aclylic Box (Foot module)
+
+
 
 How the product works: 
 The ultrasonic sensor measures the distance between itself and the object and transmitts it to the ESP32
