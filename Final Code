@@ -1,0 +1,57 @@
+// Pins for Ultrasonic Distance Sensors
+const int trigPin1 = 12;
+const int echoPin1 =11;
+
+// Pin for Motor
+const int motorPin1 = 2; // Motor control pin
+
+// Variables for distance and duration
+long duration1;
+int distance;
+
+void setup() {
+  // Initialize Serial communication
+  Serial.begin(115200);
+
+  // Set sensor and motor pins
+  pinMode(trigPin1, OUTPUT);
+  pinMode(echoPin1, INPUT);
+  pinMode(motorPin1, OUTPUT);
+}
+
+void loop() {
+  // Measure distance for Sensor 1
+  digitalWrite(trigPin1, HIGH);
+  delayMicroseconds(5);
+  digitalWrite(trigPin1, LOW);
+  duration1 = pulseIn(echoPin1, HIGH);
+  distance = duration1 * 0.034 / 2;
+  Serial.print("Sensor 1 Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+
+   // Contorl motor based on close range distance
+    if (distance <= 75){
+    //If either sensor detects an obstacle within 10 cm, start motor on high
+    digitalWrite (motorPin1, HIGH);//Turn on motor high
+    delay(1000);// Motor runs for 1 second
+    digitalWrite (motorPin1, LOW); // Turn off the motor
+  
+    }
+
+    //Control motor based on medium range distance
+    else if (distance <= 200 and distance > 75){
+    //If either sensor detects an obstacle within 20 cm, start motor on high
+    digitalWrite (motorPin1, HIGH);//Turn on motor high
+    delay(500);// Motor runs for 1/2 second
+    digitalWrite (motorPin1, LOW); // Turn off the motor
+    delay(500);
+    }
+
+    }
+   else {
+    digitalWrite(motorPin1, LOW); // Turn off motor if no obstacles detected
+    //delay(1); // Delay before next measurement
+  }
+  delay(100);
+}
