@@ -60,6 +60,7 @@ We then laser cut the leg module box on acrylic from the cad file provided by BA
 
 We then connected all the parts and the final result is *photo11*. The testing of the product was done by my teammate Dhruv *photo13,14*
 We also tried to attach the leg module using tape but however it was very unstable *photo15,16*
+We also added our logo onto the cardboard strap behind the head using a laser cutter *cad4*
 
 Later we found an issue in the leg mdoule so we altered it to have a velcro strap for the fastening and also added a gap for the switch to fit through *cad3*
 
